@@ -38,7 +38,6 @@ export const getDb = async () => {
   // Create a new transaction and specify the database and data privileges.
   const tx = jateDB.transaction('jate', 'readonly');
 
-
   // Open up the desired object store.
   const store = tx.objectStore('jate');
 
